@@ -27,6 +27,11 @@ A responsive website for "Bakery House" built using HTML5, CSS3, and JavaScript.
 - `Bakery.css`: custom stylesheet for layout and design
 - Images: various product and team photos (`bakery.jpg`, `baking-team.jpg`, `bread.jpg`, `cheesecake.jpg`, `chocolate-cake.jpg`, `coffee.jpg`, etc.)
 - `Bakery website (bassmah.fayً).pdf`: comprehensive project report
+## Screenshots & Preview
+
+| Home Banner | Menu Preview | Our Team |
+|:---:|:---:|:---:|
+| ![Bakery Logo](bakery.jpg) | ![Bread](bread.jpg) | ![Baking Team](baking-team.jpg) |
 
 ## How to Run
 1. Clone or download this repository.
