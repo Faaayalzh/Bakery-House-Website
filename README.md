@@ -1,36 +1,40 @@
-# Bakery House Website 🥐🍰
+# Bakery House Website
 
-A user-friendly and responsive website created for **Bakery House**, designed to allow customers to explore the menu, place online orders, and send inquiries.
+A responsive website for "Bakery House" built using HTML5, CSS3, and JavaScript. It covers home, about us, menu, online orders, and contact inquiries, linked with interactive forms and responsive design.
 
-Developed for the **Web Development Fundamentals (CS3251)** course at **Umm Al-Qura University**.
+> Group project for the Web Development Fundamentals (CS3251) course, Umm Al-Qura University (2024).
 
----
+## Requirements Summary
+- Every page shares a consistent and responsive navigation menu.
+- Customers can explore detailed menus featuring bread, pastries, cakes, and beverages with descriptions and prices.
+- Customers can place online orders through an interactive form with instant client-side feedback.
+- Customers can send inquiries or feedback using a dedicated contact form.
+- Visually appealing and organized layout designed to enhance the overall customer experience.
 
-## 📌 Project Overview
-* **Course:** Web Development Fundamentals (CS3251)
-* **Instructor:** Dr. Manal Khayyat
-* **Team Members:**
-  * Fay Salman Alzahrany
-  * Bassmah Hassan Alzahrani
+## Site Structure & Pages
+**Pages (5):** `Index.Bakery.html`, `AboutUs.html`, `menu.html`, `order.html`, `Contact.html`
 
----
+| Page | Description | Key Features |
+|-------|-------------|--------------|
+| Home (`Index.Bakery.html`) | Introduction to the bakery and services | Navigation links, featured bakery items |
+| About Us (`AboutUs.html`) | Bakery's story, mission, and core values | Team introduction, brand philosophy |
+| Menu (`menu.html`) | Comprehensive item catalog | Categories, descriptions, prices, images |
+| Orders (`order.html`) | Online ordering system | Interactive form, delivery time selection, confirmation message |
+| Contact Us (`Contact.html`) | Customer support and feedback channel | Inquiry form, success feedback handling via JavaScript |
 
-## 🛠️ Features & Pages
-1. **Home Page (`Index.Bakery.html`):** Welcome interface highlighting features and fresh baked goods.
-2. **About Us (`AboutUs.html`):** Shares the story, mission, and core values of Bakery House.
-3. **Menu Page (`menu.html`):** Displays baked goods, cakes, pastries, and beverages with descriptions and prices.
-4. **Orders Page (`order.html`):** Interactive order placement form with instant confirmation using JavaScript.
-5. **Contact Us (`Contact.html`):** Interactive inquiry form with feedback mechanisms.
+## Files
+- `Index.Bakery.html`, `AboutUs.html`, `menu.html`, `order.html`, `Contact.html`: main HTML pages
+- `Bakery.css`: custom stylesheet for layout and design
+- Images: various product and team photos (`bakery.jpg`, `baking-team.jpg`, `bread.jpg`, `cheesecake.jpg`, `chocolate-cake.jpg`, `coffee.jpg`, etc.)
+- `Bakery website (bassmah.fayً).pdf`: comprehensive project report
 
----
-
-## 💻 Tech Stack
-* **HTML5:** Semantic site structure and forms.
-* **CSS3:** Custom styles, layout, and visual presentation (`Bakery.css`).
-* **JavaScript:** Client-side form handling and dynamic UI feedback.
-
----
-
-## 📁 How to Run Locally
+## How to Run
 1. Clone or download this repository.
-2. Open `Index.Bakery.html` in any web browser (Chrome, Edge, Firefox).
+2. Open `Index.Bakery.html` in any web browser (Google Chrome, Microsoft Edge, etc.).
+
+## Tools Used
+HTML5, CSS3, JavaScript
+
+## Team
+- Fay Salman Alzahrany
+- Bassmah Hassan Alzahrani
