@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Order Page</title>
+<link rel="stylesheet" href="bakery.css">
+</head>
+<body>
+<header>
+<h1>Bakery House</h1>
+<nav>
+<a href="Index.Bakery.html">Home</a>
+<a href="AboutUs.html">About Us</a>
+<a href="menu.html">Menu</a>
+<a href="order.html">Orders</a>
+<a href="contact.html">Contact Us</a>
+</nav>
+</header>
+<main>
+<h2>Order Your Favorite Items</h2>
+<form id="orderForm">
+<label for="orderDetails">Order Details:</label>
+<textarea id="orderDetails" name="orderDetails" required placeholder="Enter your order details"></textarea>
+<label for="name">Your Name:</label>
+<input type="text" id="name" name="name" required placeholder="Enter your name">
+<label for="phone">Your Phone Number:</label>
+<input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+<label for="orderNumber">Order Number:</label>
+<input type="text" id="orderNumber" name="orderNumber" required placeholder="Enter your order number">
+<label for="deliveryTime">Delivery Time:</label>
+<input type="time" id="deliveryTime" name="deliveryTime" required>
+<button type="submit">Submit Order</button>
+</form>
+<div id="confirmationMessage" style="display: none;">
+<h3>Thank you for your order!</h3>
+<p>Your order has been successfully submitted.</p>
+<button id="goBackButton">Place Another Order</button>
+</div>
+</main>
+<script>
+const form=document.getElementById("orderForm");
+const confirmationMessage=document.getElementById("confirmationMessage");
+const goBackButton=document.getElementById("goBackButton");
+form.addEventListener("submit",function(e){
+e.preventDefault();
+form.style.display="none";
+confirmationMessage.style.display="block";
+});
+goBackButton.addEventListener("click",function(){
+form.reset();
+form.style.display="block";
+confirmationMessage.style.display="none";
+});
+</script>
+</body>
+</html>
